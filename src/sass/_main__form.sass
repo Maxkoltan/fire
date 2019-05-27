@@ -1,0 +1,75 @@
+aside
+    position: relative
+    display: flex
+    justify-content: center
+    flex-flow: row wrap
+    h6
+        width: 100%
+        font-size: 54px
+        font-weight: 300
+        line-height: 72.98px
+        font-family: 'Montserrat', sans-serif
+        text-align: center
+        margin-bottom: 50px
+    div
+        width: 100%
+        background: url(../img/main/aside/grandmother.png) left center/no-repeat, url(../img/main/aside/grandfather.png) right center/no-repeat
+        
+        form
+            display: flex
+            max-width: 448px
+            flex-flow: row wrap
+            margin: 0 auto
+            font-family: 'Montserrat', sans-serif
+            background-color: #e4e4e2
+            padding: 31px 25px
+            p
+                width: 100%
+                text-align: center
+                font-size: 20px
+                font-weight: 700
+            label
+                line-height: 34.98px
+            input
+                width: 100%
+                margin-bottom: 12px
+                &[type="checkbox"]
+                    flex: 1 1 10px
+                    align-self: flex-end
+                &[type="checkbox"]:focus
+                    outline: none
+            label[for="checkbox"]
+                flex: 8 1 250px 
+                font-size: 12px
+                a
+                    color: #3191de
+                
+            button
+                max-width: 225px
+                border-radius: 19px
+                font-size: 12px
+                font-weight: 400
+                padding: 14px 31px 13px 32px
+                border: none
+                background-color: #689f38
+                color: #fff
+                margin-top: 21px
+                cursor: pointer
+    p
+        position: relative
+        font-size: 15px
+        font-weight: 400
+        line-height: 21.99px
+        font-family: 'Montserrat', sans-serif
+        max-width: 467px
+        text-align: left
+        margin-top: 58px
+    .warning::before
+        width: 20px
+        height: 20px
+        position: absolute
+        content: ''
+        background-image: url(../img/main/aside/warning-icon.png)
+        left: -30px
+        top: 0
+

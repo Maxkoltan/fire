@@ -1,0 +1,51 @@
+.main__practice
+    display: flex
+    position: relative
+    justify-content: flex-start
+    flex-flow: row wrap
+    h5
+        font-size: 40px
+        font-weight: 300
+        font-family: 'Montserrat', sans-serif
+        flex: 1 1 100%
+    .img
+        position: relative
+        flex: 1 1 1000px
+        padding-left: 25px
+        padding-right: 25px
+        &::before
+            position: absolute
+            content: ''
+            width: 29px
+            height: 49px
+            top: 50%
+            left: -2%
+            background: url(../img/main/practice/arrow-left.png)
+            cursor: pointer
+        &::after
+            position: absolute
+            content: ''
+            width: 29px
+            height: 49px
+            top: 50%
+            right: -2%
+            background: url(../img/main/practice/arrow-right.png)
+            cursor: pointer
+    .galery-img
+        flex: 1 1 100%
+        height: 95px
+        padding-left: 25px
+        background: url(../img/main/practice/galery-img.png) center center/repeat-x content-box
+
+            
+
+    p
+        font-size: 15px
+        font-weight: 400
+        font-family: 'Montserrat', sans-serif
+        margin-left: 25px
+        flex: 1 1 100%
+        span
+            display: block
+            font-size: 20px
+            font-weight: 700

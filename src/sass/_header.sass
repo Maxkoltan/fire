@@ -1,0 +1,55 @@
+.header
+    display: flex
+    position: fixed
+    left: 50%
+    top: 0
+    transform: translateX(-50%)
+    width: 100% 
+    justify-content: space-between
+    align-items: center
+    background-color: #3f982e
+    height: 50px
+    z-index: 99
+    &__logo
+        position: relative
+        background-color: #fff
+        margin: 0
+        padding: 11px 27px 0 0
+        height: 50px
+        img:first-child
+            min-width: 217px
+        img:last-child
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            right: -5%
+    &__nav
+        margin-right: auto
+        padding-left: 33px
+        li
+            display: inline
+        a
+            color: #ffffff
+            font-family: 'Montserrat', sans-serif
+            font-size: 14px
+            font-weight: 400
+            margin-right: 22px
+    &__feedback
+        display: flex
+        align-items: center
+        cursor: pointer
+        img
+            min-width: 29px
+            order: 1
+        figcaption
+            color: #ffffff
+            font-family: 'Montserrat', sans-serif
+            font-size: 14px
+            font-weight: 400
+            margin-right: 9px
+            
+            
+        
+        
+
+
