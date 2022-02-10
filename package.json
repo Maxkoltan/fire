@@ -15,7 +15,7 @@
     "gulp-ftp": "^1.1.0",
     "gulp-sass": "^4.0.2",
     "gulp-terser": "^1.1.7",
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
